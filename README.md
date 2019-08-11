@@ -1,2 +1,2 @@
 # Css-challenge
-this is a css challenge or exercice done by me :p
+This is a css challenge done by me :p
