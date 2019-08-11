@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Main page</title>
+</head>
+<!-- Capitalize buttons -->
+<body>
+    <div class="container">
+        <div class="menu">
+            <button class="btn btn-special"> <span class="icon-cloud"></span>Upload</button>
+            <ul class="list-menu">
+                <li>
+                    <a class="active" href="#home">
+                        <span class="icon icon-page"></span>My Page
+                    </a>
+                </li>
+                <li>
+                    <a href="#dashboard">
+                        <span class="icon icon-dashboard"></span>Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#edit">
+                        <span class="icon icon-edit"></span>Edit Page
+                    </a>
+                </li>
+                <li>
+                    <a href="#chat">
+                        <span class="icon icon-chat"></span>Chat
+                        <span class="num-messages">5</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#community">
+                        <span class="icon icon-community"></span>Community
+                    </a>
+                </li>
+                <li>
+                    <a href="#settings">
+                        <span class="icon icon-settings"></span>Settings
+                    </a>
+                </li>
+                <li>
+                    <a href="#creators">
+                        <span class="icon icon-creators"></span>Creators
+                    </a>
+                </li>
+            </ul>
+            <div class="force-logout-to-stay-down"></div>
+            <button class="btn btn-logout">Logout</button>
+        </div>
+        <div class="content">
+            <div class="header">
+                <div class="search">
+                    <span class="search-icon"></span>
+                    <input type="text" name="search" id="search-shots" placeholder="Search Shots..." class="search-input">
+                </div>
+                <div class="notification">
+                    <div class="notification-icon"></div>
+                    <div class="occurrence">5</div>
+                </div>
+                <div class="profile">
+                    <div class="profile-pic"></div>
+                    <div class="profile-name">Jana Strassmann</div>
+                    <div class="down-arrow"></div>
+                </div>
+            </div>
+            <div class="page">
+                <div class="group-title">  
+                    <h2>My Page</h2>
+                </div>
+                <div class="group">
+                    <div class="card profile-information">
+                        <div class="user-info">
+                            <img class="profile-img" src="img/profile-img.jpg" alt="">
+                            <div class="text-info">
+                                <span class="user-name">Jana Strassmann</span>
+                                <span class="user-profession"><span class="uppercase">ui/ux</span> Designer</span>
+                            </div>
+                            <button class="btn btn-special btn-edit">Edit</button>
+                        </div>
+                        <div class="social-infos">
+                            <div class="info-wrapper">
+                                <span id="shots-value" class="value">69</span>
+                                <span class="text">Shots</span>
+                            </div>
+                            <div class="info-wrapper">
+                                <span id="followers-value" class="value">2747</span>
+                                <span class="text">Followers</span>
+                            </div>
+                            <div class="info-wrapper">
+                                <span id="following-value" class="value">678</span>
+                                <span class="text">Following</span>
+                            </div>
+                            <div class="info-wrapper">
+                                <span id="lightning-value" class="value">78</span>
+                                <span class="text">Lightning</span>
+                            </div>
+                        </div>
+                        <div class="message-follow">
+                            <div class="message">
+                                <span class="message-icon"></span> <a class="message-link uppercase" href="#">message</a>
+                            </div>
+                            <button class="btn btn-follow">Follow</button>
+                        </div>
+                    </div>
+                    <div class="card donation">
+                        <div class="donation-title">
+                            <span>Give your support</span>
+                        </div>
+                        <div class="donation-tipe">
+                            <div class="donation-logo">
+                                <span class="thunder-log"></span>
+                            </div>
+                            <div class="slider">
+                                <span id="d-text">Quantity:</span>
+                                <span class="slider-output">$<span id="slider-value">25.00</span></span>
+                                <input 
+                                    class="range-input" 
+                                    type="range"
+                                    value="25" 
+                                    step="5"
+                                    max="50" 
+                                    min="5" />
+                                
+                                <ul class="slider-labels">
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li class="active selected">5</li>
+                                    <li>6</li>
+                                    <li>7</li>
+                                    <li>8</li>
+                                    <li>9</li>
+                                    <li>10</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="donation-home">
+                            <a href="#" class="message-link uppercase">support <span></span></a>
+                        </div>
+                    </div>
+                    <div class="card social-media-links">
+                        <span class="uppercase card-header">Spread your profile</span>
+                        <div class="btn-container">
+                            <button class="btn btn-special btn-facebook"><span class="facebook-logo"></span>Share with facebook</button>
+                            <span class="remove-btn">x</span>
+                        </div>
+                        <div class="btn-container">
+                            <button class="btn btn-social-media"><span class="twitter-logo"></span>Tweet with twitter</button>
+                            <span class="remove-btn">x</span>
+                        </div>
+                        <div class="btn-container">
+                            <button class="btn btn-social-media"><span class="pinterest-logo"></span>Save with pinterest</button>
+                            <span class="remove-btn">x</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="group m90">
+                    <div class="card active-projects">
+                        <span class="uppercase card-header">Active projects</span>
+                        <span class="second-card-header"><a href="#">Show All</a></span>
+                        <div class="project-image">
+                            <span class="thunder-log big-logo"></span>
+                        </div>
+                        <div class="project-infos">
+                            <div class="user-name project-name">Solar Management Dashboard</div>
+                            <div class="user-profession project-field"><span class="uppercase">ui/ux</span> Redesign</div>
+                            <div class="user-name project-duration"><span class="value">4</span> Weeks</div>
+                        </div>
+                        <div class="project-budget">
+                            Budget: $<span class="value">1200</span>
+                        </div>
+                        <div class="project-btns">
+                            <button class="btn btn-special small-btn">Deliver</button>
+                            <button class="btn small-btn">Cancel</button>
+                        </div>
+                    </div>
+                    <div class="available-works">
+                        <span class="uppercase card-header">Works Available</span>
+                        <span class="second-card-header"><a href="#">Show All</a></span>
+                        <div class="card work">
+                            <img src="img/XDiavel.jpg" alt="work image"/>
+                            <div class="work-info">
+                                <span class="work-title">Starbucks</span>
+                                <span class="work-field">website UI Redesign</span>
+                            </div>
+                            <button class="btn btn-quote">Quote</button>
+                        </div>
+                        <div class="card work">
+                            <img src="img/XDiavel-wheele.jpg" alt="work image"/>
+                            <div class="work-info">
+                                <span class="work-title">Untapped</span>
+                                <span class="work-field">website Design</span>
+                            </div>
+                            <button class="btn btn-quote">Quote</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-title mt90">
+                    <h2 class="title">My Shots</h2>
+                    <div class="dropdown">
+                        <button class="dropbtn">Sort By<span class="down-arrow"></span></button>
+                        <div class="dropdown-content" id="myDropdown">
+                            <button>Earliest</button>
+                            <button>Latest</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="card shot">
+                        <img src="img/Sunset Mountain.jpg" class="card-img" alt="marketing landing page">
+                        <div class="card-info">
+                            <span class="dots"></span>
+                            <div class="card-title">Marketing landing page</div>
+                            <div class="card-date">03 August 2018</div>
+                        </div>
+                    </div>
+                    <div class="card shot">
+                        <img src="img/Green-Mountain.jpg" class="card-img" alt="marketing landing page">
+                        <div class="card-info">
+                            <span class="dots"></span>
+                            <div class="card-title">Community Dashboard</div>
+                            <div class="card-date">03 August 2018</div>
+                        </div>
+                    </div>
+                    <div class="card shot">
+                        <img src="img/mountain.jpg" class="card-img" alt="marketing landing page">
+                        <div class="card-info">
+                            <span class="dots"></span>
+                            <div class="card-title">Movie Booking App</div>
+                            <div class="card-date">03 August 2018</div>
+                        </div>
+                    </div>
+                    <div class="card shot">
+                        <img src="img/mountains-water.jpg" class="card-img" alt="marketing landing page">
+                        <div class="card-info">
+                            <span class="dots"></span>
+                            <div class="card-title">Pattern Gradients</div>
+                            <div class="card-date">03 August 2018</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
