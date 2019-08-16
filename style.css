@@ -1,5 +1,10 @@
 /* Menu Style */
 
+body {
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -15,10 +20,6 @@
     width: 350px;
     padding-top: 5em;
     align-items: center;
-}
-
-body {
-    margin: 0;
 }
 
 .list-menu {
