@@ -1,6 +1,6 @@
 # CSS Challenge
 
-> This is a css challenge done by me, where I hae received a mockup and tried to clone it with HTML and CSS
+> This is a css challenge done by me, where I had received a mockup and tried to clone it with HTML and CSS
 
 ![screenshot](./Screenshot.png)
 
@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-In order to run this project in your machine you need only a web browser in order to open the index.html file, and maybe a code editor if you want to have some fun with the code
+In order to run this project in your machine you need only a web browser to open the index.html file, and maybe a code editor if you want to have some fun with the code
 
 ## Author
 
@@ -35,7 +35,7 @@ In order to run this project in your machine you need only a web browser in orde
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/elmejdki/TNW-clone/issues).
+Feel free to check the [issues page](https://github.com/elmejdki/Css-challenge/issues).
 
 ## Show your support
 
@@ -43,7 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-a big hat to me and my partner Brenda and anyone who help us either by openning issues on this repository or reviewing our code :)
+Microverse
 
 ## 📝 License
 
